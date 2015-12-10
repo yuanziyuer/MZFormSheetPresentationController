@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.summary  = 'MZFormSheetPresentationController provides an alternative to the native iOS UIModalPresentationFormSheet'
   s.homepage = 'https://github.com/m1entus/MZFormSheetPresentationController'
   s.authors  = 'Michał Zaborowski'
-  s.source   = { :git => 'https://github.com/m1entus/MZFormSheetPresentationController.git', :tag => s.version.to_s }
+  s.source   = { :path => './LocalPod/MZFormSheetPresentationController-remove_at_import'}
   s.requires_arc = true
 
   s.dependency 'MZAppearance'
