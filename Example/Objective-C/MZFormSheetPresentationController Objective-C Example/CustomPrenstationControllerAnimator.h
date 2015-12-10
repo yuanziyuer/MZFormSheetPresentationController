@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import "MZFormSheetPresentationViewControllerAnimatedTransitioning.h"
-@import UIKit;
+#import <UIKit/UIKit.h>
 
 @interface CustomPrenstationControllerAnimator : NSObject <MZFormSheetPresentationViewControllerAnimatedTransitioning>
 @property (nonatomic, assign) CGFloat duration;
